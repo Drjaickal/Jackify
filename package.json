@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@clerk/nextjs": "^5.0.5",
+    "@clerk/clerk-js": "^5.2.1",
     "@radix-ui/react-dialog": "^1.0.5",
     "@radix-ui/react-slot": "^1.0.2",
     "class-variance-authority": "^0.7.0",
@@ -21,10 +21,12 @@
     "qs": "^6.12.1",
     "react": "^18",
     "react-dom": "^18",
+    "svix": "^1.22.0",
     "tailwind-merge": "^2.3.0",
     "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
+    "@clerk/nextjs": "^5.0.5",
     "@types/node": "^20",
     "@types/qs": "^6.9.15",
     "@types/react": "^18",
